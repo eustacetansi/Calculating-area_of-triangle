@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(47, 79, 64);
+    font-family: arial;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    width: 250px;
+    padding: 40px;
+    margin: auto;
+    border: 3px solid white;
+    margin-top: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 10px;
+}
+
+form{
+    background-color: black;
+    color: white;
+    width: 250px;
+    padding: 40px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius:20px ;
+}
+
+input{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    height: 30px;
+}
+[type=button]{
+    height: 60px;
+}
+
+[type=button]:hover{
+    background-color: green;
+    color: white;
+}
